@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/ulabsrg@dpcom.es/Documents/GitHub/Weather-Service%2D%2DPMApps-Communication-P3/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Weather Service App</string>
+    <string name="enter_city_name_or_country_code">City name or Country code</string>
+    <string name="get_weather_async">Get Weather Async</string>
+    <string name="get_weather_sync">Get Weather Sync</string>
+    <string name="weather_service_activity">WeatherServiceApp</string>
+</resources>

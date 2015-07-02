@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecfdff"
+    android:orientation="vertical" > 
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#585858"
+        android:ems="10"
+        android:hint="@string/enter_city_name_or_country_code"
+        android:inputType="text|textMultiLine|textUri" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.84"
+        android:orientation="vertical">
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="1dp"
+        android:background="#26a1e4"
+        android:onClick="expandWeatherSync"
+        android:text="@string/get_weather_sync" />
+    
+    <Button
+        android:id="@+id/buttonAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="1dp"
+        android:background="#26a1e4"
+        android:onClick="expandWeatherAsync"
+        android:text="@string/get_weather_async" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/ulabsrg@dpcom.es/Documents/GitHub/Weather-Service%2D%2DPMApps-Communication-P3/app/src/main/res/layout/main_activity.xml -->
